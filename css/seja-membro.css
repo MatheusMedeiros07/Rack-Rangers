@@ -1,0 +1,42 @@
+#seja-membro {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-areas:
+        'titulo1 titulo1'
+        'titulo2 titulo2'
+        'plano1 plano2';
+    grid-template-rows: auto auto 1fr;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#seja-membro * {
+    margin: 0;
+}
+
+#seja-membro > h1 {
+    grid-area: titulo1;
+    justify-self: center;
+}
+
+#seja-membro > h2 {
+    grid-area: titulo2;
+    justify-self: center;
+}
+
+#seja-membro .plano {
+    background-color: burlywood;
+    border-radius: 10px;
+    border-top: 3px solid #000;
+    padding: 1rem;
+}
+
+#seja-membro #plano1 {
+    border-color: #0487f3;
+    grid-area: plano1;
+}
+
+#seja-membro #plano2 {
+    border-color: #18940d;
+    grid-area: plano2;
+}

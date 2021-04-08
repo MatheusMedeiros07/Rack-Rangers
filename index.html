@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Intro HTML e CSS</title>
+    <script type="module" src="js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="home.html" data-target-id="main-content">
+                <img class="logo" src="img/logo.png" alt="Afro Saúde" />
+            </a>
+            
+            <input type="checkbox" id="bt_menu">
+            <label for="bt_menu">&#9776;</label>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#" data-target-id="main-content">SOBRE NÓS</a></li>
+                    <li><a href="#" data-target-id="main-content">PLANOS E PREÇOS</a>
+                        <ul class="menu_hidden">
+                            <li><a href="#" data-target-id="main-content">PARA PACIENTES</a></li>
+                            <li><a href="#" data-target-id="main-content">PARA PROFISSIONAIS</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" data-target-id="main-content">NOSSOS PROFISSIONAIS</a></li>
+
+                    <li><a href="#" data-target-id="main-content">SOU PROFISSIONAL DA SAÚDE</a>
+                        <ul class="menu_hidden">
+                            <li><a href="#" data-target-id="main-content">AUTÔNOMO</a></li>
+                            <li><a href="#" data-target-id="main-content">CONVÊNIOS / PARCEIROS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <a class="icone" href="home.html" data-target-id="main-content"><img src="./img/Lupa.png" alt="Lupa"></a>
+
+            <a class="icone" href="home.html" data-target-id="main-content">&#128100;</a>
+
+        </nav>
+    </header>
+    <main id="main-content">
+        
+    </main>
+    <footer>
+        <figure>
+            <img class="logo" src="img/logo_branco.png" alt="Afro Saúde" />
+        </figure>
+        
+        <nav class="site-map" class="vertical">
+            <a href="#" data-target-id="main-content">CORONAVÍRUS</a>
+            <a href="#" data-target-id="main-content">PLANOS E PREÇOS</a>
+            <a href="#" data-target-id="main-content">NOSSOS PROFISSIONAIS</a>
+            <a href="#" data-target-id="main-content">SOU PROFISSIONAL DA SAÚDE</a>
+        </nav>
+
+            <nav class="site-map" class="vertical">
+                <a href="#" data-target-id="main-content">SOBRE NÓS</a>
+                <a href="#" data-target-id="main-content">BLOG</a>
+                <a href="#" data-target-id="main-content">COMUNIDADE</a>
+                <a href="#" data-target-id="main-content">CONTATO</a>
+            </nav>
+        <section class="section-horizontal">
+            <a href="https://www.instagram.com/afrosaude/" target="_blank"><img src="./img/INSTAGRAM 3.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/afrosaudebr/" target="_blank"><img src="./img/FACEBOOK 3.png" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/company/afrosaude/" target="_blank" ><img src="./img/LINKEDIN 3.png" alt="Linkedln"></a>
+            <a href="mailto:contato@afrosaude.com.br"><img src="./img/EMAIL 3.png" alt="Email"></a>
+        </section>
+    <p>Alameda Salvador, 1087, Caminho das Árvores. Salvador Shopping Business (Torre América), sala 911. Salvador-BA</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+body > header {
+    background-color: white;
+}
+
+.icone{
+    margin-right: 100px;
+}
+
+.icone img {
+    max-width: 20px;
+    max-height: 20px;
+    width: auto;
+    height: auto;
+}
+
+body > header > nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+@media (max-width: 450px) {
+    body > header > nav {
+        flex-direction: column;
+    }
+
+    body > header > nav a:last-of-type {
+        margin-top: 1rem;
+    }
+}
